@@ -4,6 +4,9 @@ The purpose of this repo is to mess around with the Git CLI.
 <br>
 
 # Some helpful/useful Git CLI commands:
+(I always forget these.)
+
+
 **Commit to GitHub (assuming there's a remote repo set up):**
 git add . && git commit -m "update" && git push
 
