@@ -24,6 +24,12 @@ git show cb43c21
 
 
 **Overwrite local repo with the remote repo:**
+I find that two commands work for this:
+
+This one works essentially all the time:
+it fetch origin && git reset --hard origin && git clean -fd 
+
+This one is a bit temperamental:
 git fetch origin && git reset --hard origin/main && git clean -fd 
 
 **Pull commits from remote repo (may need to overwrite the local repo):**
